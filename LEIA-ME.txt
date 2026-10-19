@@ -1,0 +1,41 @@
+NOSSA VIDA FINANCEIRA — SITE COM DATAS EDITÁVEIS
+===============================================
+
+ARQUIVOS
+- index.html: o site completo (funciona sem servidor ou internet no navegador)
+- manifest.webmanifest, favicon.svg e sw.js: recursos opcionais para publicar como site.
+
+COMO COMEÇAR
+1. Abra index.html no navegador ou publique todos os arquivos em um servidor HTTPS.
+2. No alto da tela escolha qualquer mês/ano para consultar o controle financeiro.
+3. Entre em Configurações > Calendário do planejamento e mude o mês/ano inicial.
+4. Configure também separadamente o mês inicial da reserva do AP, do casamento,
+   a primeira parcela da Caixa, o dia de vencimento e o início dos gastos da casa.
+5. Ajuste metas, prazos, rendas e despesas nas Configurações.
+6. Use Configurações > Promoções, aumentos e mudanças por mês para registrar
+   aumentos salariais ou novas estimativas válidas de um mês em diante.
+7. Em Orçamentos, edite os limites padrão ou valores especiais somente para o mês selecionado.
+8. Em Apartamento, edite as primeiras 24 parcelas individualmente ou use o formulário
+   para corrigir qualquer parcela após a 24ª, por mês e ano.
+9. Em Lançamentos, registre receitas, despesas, pagamentos e valores guardados.
+
+CALENDÁRIO
+- Alterar o início do plano NÃO exclui transações passadas.
+- As reservas mensais projetadas só aparecem dentro de seus respectivos períodos.
+- Alterar a primeira data da Caixa desloca as parcelas simuladas preservando ajustes
+  associados ao número da parcela (1ª, 2ª, 3ª...).
+- Dados da Caixa são SOMENTE SIMULAÇÕES. A projeção não inclui atualizações futuras da TR.
+- As parcelas da entrada não foram inventadas; registre os pagamentos verdadeiros.
+
+PRIVACIDADE E BACKUP
+Os dados são salvos localmente no navegador; não existe login, nuvem nem sincronização.
+Por isso, ANTES DE TROCAR de arquivo ou computador, exporte um backup em
+Configurações > Baixar backup JSON. No site novo use Importar backup.
+Abrir o mesmo HTML em outro navegador, domínio ou caminho pode usar uma área de
+armazenamento diferente — guardar um arquivo HTML não guarda os lançamentos.
+Não coloque senhas, CPFs completos ou dados bancários sensíveis nos lançamentos.
+
+ATUALIZAÇÃO
+A chave do armazenamento local permanece compatível com a versão anterior.
+Valores já editados das parcelas são migrados para acompanhar o número da prestação.
+Sempre mantenha um backup JSON antes de fazer grandes mudanças.
